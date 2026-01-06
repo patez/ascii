@@ -5,7 +5,7 @@ import { ref } from 'vue'
 
 figlet.parseFont("Standard", standard);
 
-const msg = ref('Terve asciita!muutos')
+const msg = ref('Terve asciita!muutos1')
 
 const update = (msg) => {
     return figlet.textSync(
